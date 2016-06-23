@@ -29,14 +29,23 @@ html, body {
   padding: 20px 0;
 }
 
+.nav a {
+  text-decoration: none !important;
+  color: #FFF;
+}
+
+.nav a:hover {
+  color: #f1f3f1;
+}
+
 .nav li {
-    color: #fff;
-    display: inline;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    margin-right: 25px;
-    text-transform: uppercase;
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
 }
 
 .main {
@@ -143,5 +152,6 @@ html, body {
 
   .supporting .col {
     width: 100%;
+    margin: 10px;
   }
 }
